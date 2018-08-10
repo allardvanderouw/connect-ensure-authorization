@@ -34,7 +34,7 @@ describe('ensure unit test', () => {
     it('should successfully login and access a protected route', () => {
       const next = sandbox.stub(expressStub, 'next');
 
-      ensureScope('scopes:read')({ ...expressStub.req, user: testUser }, expressStub.res, expressStub.next);
+      ensureScope('scopes:read')({ user: testUser }, expressStub.res, expressStub.next);
 
       assert(next.calledOnce);
     });
@@ -53,7 +53,7 @@ describe('ensure unit test', () => {
       const status = sandbox.stub(expressStub.res, 'status');
       const next = sandbox.stub(expressStub, 'next');
 
-      ensureScope('scopes:write')({ ...expressStub.req, user: testUser }, expressStub.res, expressStub.next);
+      ensureScope('scopes:write')({ user: testUser }, expressStub.res, expressStub.next);
 
       assert(status.calledWith(403));
       assert(!next.calledOnce);
