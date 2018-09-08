@@ -16,6 +16,7 @@ This middleware ensures that a user is authorized. If the user is unauthorized, 
       * [Custom status code and/or message](#custom-status-code-andor-message)
       * [Redirect instead of return JSON](#redirect-instead-of-return-json)
       * [Custom user property](#custom-user-property)
+   * [Usage with Passport](#usage-with-passport)
 
 ## Install
 
@@ -207,3 +208,8 @@ app.get('/api/todos', ensureScope('todos:read'), (req, res) => {
   ]);
 });
 ```
+
+## Usage with Passport
+
+Take a look at the integration test for some inspiration.  
+I have also created a single file example repository using this module: https://github.com/allardvanderouw/express-api-passport-local-mongo-session-example/blob/master/server.js
