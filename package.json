@@ -28,7 +28,7 @@
   "devDependencies": {
     "body-parser": "^1.18.3",
     "codecov": "^3.1.0",
-    "connect-ensure-authenticated": "^1.0.3",
+    "connect-ensure-authenticated": "^1.0.4",
     "cookie-parser": "^1.4.3",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",

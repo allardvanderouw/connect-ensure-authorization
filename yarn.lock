@@ -493,10 +493,10 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-connect-ensure-authenticated@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/connect-ensure-authenticated/-/connect-ensure-authenticated-1.0.3.tgz#21127bad380896c137d2eb032c37c0ed57509f71"
-  integrity sha512-INHsj/ZzKjJV9zp5VWRDgsh+sm59LW9n2GxKZxfSafvaPutzY24zvbwXjI5gBVncgcowzNzDBXt9Jp64Yw4Nug==
+connect-ensure-authenticated@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/connect-ensure-authenticated/-/connect-ensure-authenticated-1.0.4.tgz#ecb1603b92002b1ea5134881dc6e158b326b2abc"
+  integrity sha512-QCVwF6W9W4DpAA4j4jxuVt6Ff8wcvMMUrEpAfuU7owPsAkcdxZavdUpa/WOgZdlojY8QEkEpLUA0UFaERWpULw==
   dependencies:
     express-unless "^0.5.0"
 
