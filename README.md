@@ -3,7 +3,7 @@
 [![NPM version](https://img.shields.io/npm/v/connect-ensure-authorization.svg)](https://www.npmjs.com/package/connect-ensure-authorization)
 [![Build Status](https://travis-ci.com/allardvanderouw/connect-ensure-authorization.svg?branch=master)](https://travis-ci.com/allardvanderouw/connect-ensure-authorization)
 [![codecov](https://codecov.io/gh/allardvanderouw/connect-ensure-authorization/branch/master/graph/badge.svg)](https://codecov.io/gh/allardvanderouw/connect-ensure-authorization)
-[![devDependencies Status](https://david-dm.org/allardvanderouw/connect-ensure-authorization/dev-status.svg)](https://david-dm.org/allardvanderouw/connect-ensure-authorization?type=dev)
+[![devDependencies Status](https://david-dm.org/allardvanderouw/connect-ensure-authorization/dev-status.svg)](https://david-dm.org/allardvanderouw/connect-ensure-authorization?type=dev) [![Greenkeeper badge](https://badges.greenkeeper.io/allardvanderouw/connect-ensure-authorization.svg)](https://greenkeeper.io/)
 
 This middleware ensures that a user is authorized. If the user is unauthorized, the request returns a JSON error by default or redirects the user with additional configuration.
 
