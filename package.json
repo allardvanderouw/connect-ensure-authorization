@@ -31,7 +31,7 @@
     "connect-ensure-authenticated": "^1.0.6",
     "cookie-parser": "^1.4.4",
     "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb": "^18.0.0",
     "eslint-plugin-import": "^2.17.2",
     "express": "^4.16.4",
     "express-session": "^1.16.1",
