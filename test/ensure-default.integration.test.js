@@ -30,7 +30,7 @@ const login = () => new Promise((resolve, reject) => {
     });
 });
 
-const logout = cookie => new Promise((resolve, reject) => {
+const logout = (cookie) => new Promise((resolve, reject) => {
   request('http://localhost:3000')
     .post('/api/logout')
     .set('cookie', cookie)
@@ -43,7 +43,7 @@ const logout = cookie => new Promise((resolve, reject) => {
     });
 });
 
-const readScopes = cookie => new Promise((resolve, reject) => {
+const readScopes = (cookie) => new Promise((resolve, reject) => {
   request('http://localhost:3000')
     .get('/api/scopes')
     .set('cookie', cookie)
@@ -56,7 +56,7 @@ const readScopes = cookie => new Promise((resolve, reject) => {
     });
 });
 
-const createScope = cookie => new Promise((resolve, reject) => {
+const createScope = (cookie) => new Promise((resolve, reject) => {
   request('http://localhost:3000')
     .post('/api/scopes')
     .set('cookie', cookie)
@@ -69,7 +69,7 @@ const createScope = cookie => new Promise((resolve, reject) => {
     });
 });
 
-const readPermissions = cookie => new Promise((resolve, reject) => {
+const readPermissions = (cookie) => new Promise((resolve, reject) => {
   request('http://localhost:3000')
     .get('/api/permissions')
     .set('cookie', cookie)
@@ -82,7 +82,7 @@ const readPermissions = cookie => new Promise((resolve, reject) => {
     });
 });
 
-const createPermission = cookie => new Promise((resolve, reject) => {
+const createPermission = (cookie) => new Promise((resolve, reject) => {
   request('http://localhost:3000')
     .post('/api/permissions')
     .set('cookie', cookie)
@@ -95,7 +95,7 @@ const createPermission = cookie => new Promise((resolve, reject) => {
     });
 });
 
-const readRoles = cookie => new Promise((resolve, reject) => {
+const readRoles = (cookie) => new Promise((resolve, reject) => {
   request('http://localhost:3000')
     .get('/api/roles')
     .set('cookie', cookie)
@@ -108,7 +108,7 @@ const readRoles = cookie => new Promise((resolve, reject) => {
     });
 });
 
-const createRole = cookie => new Promise((resolve, reject) => {
+const createRole = (cookie) => new Promise((resolve, reject) => {
   request('http://localhost:3000')
     .post('/api/roles')
     .set('cookie', cookie)
@@ -121,7 +121,7 @@ const createRole = cookie => new Promise((resolve, reject) => {
     });
 });
 
-const readGroups = cookie => new Promise((resolve, reject) => {
+const readGroups = (cookie) => new Promise((resolve, reject) => {
   request('http://localhost:3000')
     .get('/api/groups')
     .set('cookie', cookie)
@@ -134,7 +134,7 @@ const readGroups = cookie => new Promise((resolve, reject) => {
     });
 });
 
-const createGroup = cookie => new Promise((resolve, reject) => {
+const createGroup = (cookie) => new Promise((resolve, reject) => {
   request('http://localhost:3000')
     .post('/api/groups')
     .set('cookie', cookie)

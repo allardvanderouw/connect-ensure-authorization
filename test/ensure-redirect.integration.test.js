@@ -30,7 +30,7 @@ const login = () => new Promise((resolve, reject) => {
     });
 });
 
-const logout = cookie => new Promise((resolve, reject) => {
+const logout = (cookie) => new Promise((resolve, reject) => {
   request('http://localhost:3000')
     .post('/api/logout')
     .set('cookie', cookie)
@@ -43,7 +43,7 @@ const logout = cookie => new Promise((resolve, reject) => {
     });
 });
 
-const readScopes = cookie => new Promise((resolve, reject) => {
+const readScopes = (cookie) => new Promise((resolve, reject) => {
   request('http://localhost:3000')
     .get('/api/scopes')
     .set('cookie', cookie)
@@ -56,7 +56,7 @@ const readScopes = cookie => new Promise((resolve, reject) => {
     });
 });
 
-const createScope = cookie => new Promise((resolve, reject) => {
+const createScope = (cookie) => new Promise((resolve, reject) => {
   request('http://localhost:3000')
     .post('/api/scopes')
     .set('cookie', cookie)
