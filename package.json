@@ -1,6 +1,6 @@
 {
   "name": "connect-ensure-authorization",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "User authorization ensuring middleware for Connect for API's.",
   "main": "./lib",
   "repository": "https://allardvanderouw@github.com/allardvanderouw/connect-ensure-authorization.git",
